@@ -1,0 +1,251 @@
+body {
+    background-color: #F1F3F5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.08em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    width: 70%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back_arrow  {
+    width: 25px;
+}
+
+.devhints {
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+}
+
+.fb, .tw {
+    width: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+h1 {
+    font-weight: 1;
+    font-size: 3.5em;
+}
+a {
+    text-decoration: none;
+}
+.grey {
+    color: #667788;
+}
+
+#author-tw {
+    color: #26648e;
+}
+
+#author-tw:hover {
+    color: #6ec0f7;
+}
+
+.ad-wrap-link {
+    color: black;
+}
+
+.searchbox {
+    width: 950px;
+    height: 80px;
+    border: none;
+    background: white;
+    box-shadow: 1px 0.5px 0.5px 0.5px #DDE2E6;
+}
+
+.brand {
+    background-color: #F8F9FA;
+    color: rgb(163, 166, 168);
+    border-radius: 5px;
+    box-shadow: 1px 0.5px 0.5px 0.5px #DDE2E6;
+    padding: 7px;
+    position: relative;
+    bottom: 5px;
+    left: -830px;
+}
+.separator {
+    
+    position: relative;
+    bottom: 60px;
+    left: -350px;
+    font-size: 1.5em;
+    color: #a59d9d;
+    margin: 5px;
+}
+input[type=text] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    border: none;
+    margin: 10px;
+    position: relative;
+    left: 90px;
+    width: 760px;
+    height: 10px;
+    color: #525050;
+    padding: 1em;
+    background-image: url(./resources/search.png);
+    background-position: 780px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.ads {
+    line-height: 1em;
+    text-align: center;
+}
+
+.ads p:nth-of-type(1) {
+    font-size: 0.9em;
+}
+
+.ads .ad-sponsor {
+    font-weight: bold;
+}
+
+.ads .sponsor-message {
+    color: black;
+    line-height: 1.5em;
+}
+
+.ads img {
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.ads p:nth-of-type(2) {
+    font-size: 0.8em;
+}
+
+.fw-elements {
+    width: 1000px;
+}
+
+li a {
+    color: black;
+}
+/* .fw-elements a:visited {
+    color: black;
+} */
+
+.fw-element {
+    height: 70px;
+    width: 230px;
+    margin: 0.2em;
+    padding-left: 1em;
+    padding-bottom: 0.7em;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+}
+
+.fw-purple {
+    background: linear-gradient(45deg, #7660b5, #986cbb);
+}
+
+.fw-gray {
+    background: linear-gradient(45deg, #667788, #6f8793);
+}
+
+.fw-green {
+    background: linear-gradient(45deg, #14af84, #15b899);
+}
+
+.fw-purple:hover {
+    background: #6047a5;
+}
+
+.fw-gray:hover {
+    background: #6e6e6e;
+}
+
+.fw-green:hover {
+    background: #15a877;
+}
+
+.lists {
+    text-align: left;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #7660b5;
+    margin-bottom: 1em;
+}
+
+ul {
+    font-family: cousine, SFMono-Regular, Consolas, Menlo, "Liberation Mono", "Ubuntu Mono", Courier, monospace;
+    font-weight: 500;
+    font-size: 1.09em;
+    list-style: none;
+    columns: 2 25em;
+    line-height: 2em;
+}
+
+.hidden {
+    display: none;
+    color: #5e4c91;
+    padding-left: 10px;
+}
+.greendot:hover {
+    display: inline;
+}
+
+li:hover + .hidden {
+    display: inline;
+}
+
+hr {
+    border: 1px solid #d5dadf;
+}
+
+.greendot::after {
+    content: "•";
+    font-size: 1.7em;
+    position: relative;
+    left: 10px;
+    top: 4px;
+    color: #77DAB2;
+}
+/* Footer */
+.footer {
+    margin-top: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer div {
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.footer img {
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+}
+.footer button {
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1em;
+}
+.footer p {
+    font-size: 1.2em;
+}
